@@ -1,0 +1,26 @@
+User-agent: Yandex
+Disallow: /auth/
+Disallow: /admin/
+Disallow: /likes/
+Disallow: /comment/
+Disallow: /search/
+Disallow: /register/
+Disallow: /account/
+Disallow: /info/
+Disallow: /key/
+Disallow: /password/
+Disallow: /user/
+Host: www.remont-mega.ru
+
+User-agent: *
+Disallow: /auth/
+Disallow: /admin/
+Disallow: /likes/
+Disallow: /comment/
+Disallow: /search/
+Disallow: /register/
+Disallow: /account/
+Disallow: /info/
+Disallow: /key/
+Disallow: /password/
+Disallow: /user/

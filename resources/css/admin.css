@@ -1,0 +1,381 @@
+/* -------------------------------------
+             ADMIN PANEL
+ ---------------------------------------*/
+div.adminLists {
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+div.adminLists ul {
+    list-style: none;
+}
+
+div.adminLists ul a {
+    color: #636d78;
+}
+
+div.adminLists li {
+    height: 30px;
+    padding: 12px 0 0 10px;
+    width: 500px;
+    border-bottom: 1px solid #d1d9df;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+div.adminLists li:hover {
+    background: #e1eaf0;
+    padding-left: 14px;
+}
+
+div.adminLists ul li span {
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+div.bigFont li {
+    height: 35px;
+    padding: 7px 0 0 10px;
+}
+
+div.adminLists input[type='checkbox'] {
+    display: block;
+    float: left;
+    clear: both;
+    margin: 15px 0 0 0;
+}
+
+div.adminLists label {
+    display: block;
+    float: left;
+    height: 35px;
+    padding: 7px 0 0 10px;
+    width: 95%;
+    cursor: pointer;
+    border-bottom: 1px solid #d1d9df;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+div.adminLists label span {
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+div.adminLists label:hover {
+    color: #08c;
+}
+
+div.adminLists label:last-child {
+    margin-bottom: 20px;
+}
+
+.colorRed {
+    color: #c6263c;
+}
+
+div.form form#formAdmin div#textFieldAdmin input {
+    height: 30px;
+    border: 1px solid #d1d9df;
+    padding-left: 10px;
+    margin: 5px 0 0 0;
+    width: 98%;
+    font-size: 16px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    outline: #ecb2b6;
+    -webkit-transition: box-shadow 0.2s ease-out;
+    -moz-transition: box-shadow 0.2s ease-out;
+    transition: box-shadow 0.2s ease-out;
+}
+
+div.form form#formAdmin div#textFieldAdmin input:hover,
+div.form form#formAdmin div#textFieldAdmin input:focus {
+    box-shadow: #d4b7be 0 0 5px;
+    border: 1px solid #d2c5ca;
+}
+
+div.form form#formAdmin div#textFieldAdmin label {
+    display: block;
+    margin: 20px 0 0 20px;
+    float: none;
+}
+
+div.form form#formAdmin div#textFieldAdmin textarea {
+    border: 1px solid #d1d9df;
+    padding: 15px;
+    margin: 5px 0 0 0;
+    width: 97%;
+    font-size: 16px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    outline: #ecb2b6;
+    -webkit-transition: box-shadow 0.2s ease-out;
+    -moz-transition: box-shadow 0.2s ease-out;
+    transition: box-shadow 0.2s ease-out;
+    font-family: OpenSansRegular, Arial, sans-serif;
+}
+
+div.categories {
+    margin: 20px;
+}
+
+div.categories label {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+div.categories select {
+    height: 30px;
+    border: 1px solid #d1d9df;
+    padding-left: 10px;
+    width: 200px;
+}
+
+div#textFieldAdmin {
+    width: 98%;
+    margin: 0 auto;
+}
+
+div.imagesForPost {
+    text-align: center;
+}
+
+div.imagesForPost input,
+div.imagesForPost label {
+    display: inline-block;
+}
+
+div.imagesForPost label {
+    margin: 10px 10px 0 0;
+    font-size: 14px;
+}
+
+div.imagesForPost label:first-child {
+    margin: 0 0 8px 0;
+}
+
+div.bbCode span {
+    display: block;
+    float: left;
+    margin: 0 0px;
+    padding: 0 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Consolas', sans-serif;
+    border-right: 1px dotted #adadad;
+}
+
+div.bbCode span:hover {
+    color: #df4a3a;
+}
+
+div.adminButton div {
+    width: 260px;
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+div.adminButton button#button.registrationButton {
+    display: block;
+    margin: 10px auto;
+}
+
+div.adminButton div.real_button {
+    width: 258px;
+}
+
+span.deleteSpan {
+    color: #df4a3a;
+    cursor: pointer;
+}
+
+span.deleteSpan:hover {
+    color: #08c;
+}
+
+div.contentAdmin {
+    width: 90%;
+    margin: 0 auto;
+}
+
+div.contentAdmin h2 {
+    text-align: center;
+}
+
+div.contentAdmin h2 span {
+    font-size: 16px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+div.contentAdmin form {
+    width: 100%;
+}
+
+div.textField {
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+div.textField input {
+    width: 500px;
+    margin-left: 2%;
+    height: 30px;
+    border: 1px solid #d1d9df;
+    padding-left: 10px;
+    font-size: 14px;
+    color: #808d9b;
+}
+
+div.textField label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+
+div.contentAdmin h2 span:hover {
+    color: #df4a3a;
+}
+
+div.beautyTable table {
+    border-spacing: 0;
+    border-collapse: separate;
+    display: table;
+    box-sizing: content-box;
+    margin: 10px 0 20px 0;
+}
+
+div.beautyTable table {
+    border: 1px solid #394f79;
+    width: 100%;
+}
+
+div.beautyTable table thead th {
+    border-bottom: 1px solid #394f79;
+}
+
+div.beautyTable table td, div.beautyTable table th {
+    margin: 0;
+    padding: 10px;
+    border: 1px dotted #bdc4d1;
+}
+
+div.beautyTable table td#first {
+    width: 40%;
+}
+
+div.beautyTable table td#second {
+    width: 30%;
+}
+
+div.beautyTable table td#third {
+    width: 25%;
+}
+
+div.beautyTable table td#forth {
+    width: 5%;
+}
+
+td.beautyImageTd img {
+    width: 200px;
+}
+
+div#createNewBeauty {
+    text-align: center;
+    height: 28px;
+}
+
+div#createNewBeauty a {
+    color: #df4a3a;
+}
+
+div#createNewBeauty a:hover {
+    color: #08c;
+}
+
+div.form form div#textField.inTable input {
+    margin: 0;
+    width: 95%;
+}
+
+div.form form select.inTable {
+    width: 100%;
+    height: 30px;
+    border: 1px solid #d1d9df;
+    padding-left: 10px;
+}
+
+div#textFieldAdminWide {
+    width: 800px;
+    margin: 0 auto;
+}
+
+div#textFieldAdminWide label {
+    display: inline-block;
+    width: 200px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+div#textFieldAdminWide input {
+    display: inline-block;
+    width: 400px;
+    height: 30px;
+    border: 1px solid #d1d9df;
+    padding-left: 10px;
+    margin: 10px 0 0 0;
+    font-size: 14px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #808d9b;
+    outline: #ecb2b6;
+    -webkit-transition: box-shadow 0.2s ease-out;
+    -moz-transition: box-shadow 0.2s ease-out;
+    transition: box-shadow 0.2s ease-out;
+}
+
+div#textFieldAdminWide select {
+    margin-top: 10px;
+    height: 30px;
+    border: 1px solid #d1d9df;
+    color: #808d9b;
+    padding-left: 10px;
+    width: 412px;
+}
+
+div#textFieldAdminWide.withTextarea {
+    margin-top: 10px;
+    height: 130px;
+}
+
+div#textFieldAdminWide.withTextarea label {
+    display: block;
+    float: left;
+    width: 200px;
+}
+
+div#textFieldAdminWide.withTextarea textarea {
+    display: block;
+    float: left;
+    width: 394px;
+    margin: 0;
+    border: 1px solid #cad1d9;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    min-height: 100px;
+    overflow: hidden;
+    padding: 10px;
+    color: #5f7082;
+    font-size: 14px;
+    font-family: OpenSansRegular, Arial, sans-serif;
+}

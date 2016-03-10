@@ -1,0 +1,168 @@
+#wrapper {
+    text-align: left;
+    width: 800px;
+    margin: 0 auto;
+}
+
+#images {
+    list-style: none;
+}
+
+#images li a img {
+    width: 270px;
+    height: 200px;
+    margin: 15px 18px 15px 0;
+}
+
+.gallery_price div span.gallery-red {
+    color: #F00;
+}
+
+.gallery_price div span.gallery-normal {
+    font-weight: normal;
+}
+
+#images li, #images li a, #images li a img {
+    float: left;
+}
+
+/*#images li { padding-left:3px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	background: #fff;
+}*/
+
+.dn {
+    display: none;
+}
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+    z-index: 10000;
+}
+
+#lightbox {
+    text-align: left;
+    z-index: 999999;
+    background: #fff;
+    border: 6px solid white;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    position: fixed;
+    top: -999999em;
+    left: 50%;
+}
+
+#lightbox-wrapper {
+    background: #000;
+}
+
+img#currentImage, #lightbox-wrapper {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+#lightbox-content {
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    float: left;
+}
+
+#lightbox-tools {
+    display: block;
+    float: left;
+    position: absolute;
+    border: 1px solid #ff0000;
+    margin-top: 25%;
+}
+
+#lightbox-close,
+#lightbox-tools .paging {
+    text-indent: 999999em;
+    overflow: hidden;
+    display: none;
+    position: absolute;
+    top: 9px;
+}
+
+#lightbox-prev,
+#lightbox-prev-inactive,
+#lightbox-next,
+#lightbox-next-inactive {
+    position: absolute;
+    height: 100%;
+    width: 8%;
+    min-width: 60px;
+    cursor: pointer;
+    -webkit-transition: background 0.2s ease-out;
+    -moz-transition: background 0.2s ease-out;
+    transition: background 0.2s ease-out;
+}
+
+#lightbox-prev {
+    left: 0;
+    background: rgba(255, 255, 255, 0.15) url('../img/prevButton.png') center center no-repeat;
+}
+
+#lightbox-prev:hover {
+    background: rgba(255, 255, 255, 0.3) url('../img/prevButton.png') center center no-repeat;
+}
+
+#lightbox-next {
+    right: 0;
+    background: rgba(255, 255, 255, 0.15) url('../img/nextButton.png') center center no-repeat;
+}
+
+#lightbox-next:hover {
+    background: rgba(255, 255, 255, 0.3) url('../img/nextButton.png') center center no-repeat;
+}
+
+#lightbox-prev-inactive, #lightbox-next-inactive {
+    visibility: hidden;
+    cursor: default;
+}
+
+#lightbox-close {
+    background: url(../img/close_button_gallery.png) 0 0 no-repeat;
+    height: 14px;
+    width: 14px;
+    cursor: pointer;
+    display: block;
+    top: 17px;
+    right: 17px;
+    z-index: 1;
+}
+
+#lightbox-close:hover {
+    background-position: -16px 0;
+}
+
+#lightbox-title {
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    background-color: #FFF;
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    opacity: 0.7;
+    position: absolute;
+    bottom: 15px;
+    padding: 6px 20px;
+    color: #000;
+    font-style: italic;
+	font-size: 12px;
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/app/Http/Models/PostsModel.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/Http/routes.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/index.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/layouts/menu.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/master.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/posts/fullText.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/sitemap/sitemap.blade.php" charset="windows-1251" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

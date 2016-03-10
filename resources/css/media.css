@@ -1,0 +1,613 @@
+/*
+main list:
+- from 1450 to 1020 - top
+- from 1020 to 830 - left
+- from 830 to min - top
+*/
+@media screen and (max-width: 1450px) {
+    /* main list */
+    div.shortDescMenu {
+        float: none;
+        width: 100%;
+        line-height: 1.3em;
+        margin-top: -10px;
+    }
+
+    div.shortDescMenu p {
+        margin-bottom: 10px;
+        padding-left: 0;
+    }
+
+    div.shortDescMenu ul {
+        font-size: 13px;
+    }
+
+    div.shortDescText {
+        float: none;
+        width: 100%;
+    }
+
+    div#lineShortDescMenu {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    /* menu */
+    div.menuColumn {
+        display: none;
+    }
+
+    div.logoContainer {
+        position: absolute;
+    }
+
+    div.menuColumn {
+        margin-top: 0;
+    }
+
+    div.logoContainer {
+        margin-left: 80px;
+    }
+
+    div.buttonMenu {
+        margin-left: 0;
+    }
+
+    div#logoContainerHide,
+    div.horizontalMenu,
+    div.hideMenu, div.buttonMenu,
+    div.verticalMenu ul li.showWhenLowHeight {
+        display: block;
+    }
+
+    /* adv hiding box */
+    div#advShowBox {
+        margin-top: -165px;
+    }
+
+    /* footer */
+    div.footerRow, div.footerLogo {
+        width: 20%;
+    }
+
+    /* post column */
+    div.generalColumn {
+        margin: 0;
+    }
+
+    /* account */
+    div.avatar.messageBox {
+        width: 50px;
+        margin: 0 auto;
+        float: none;
+    }
+
+    div.rowLeft div.messageUser span {
+        margin: 10px 0 0 0;
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    /* adv */
+    aside.advContainer {
+        width: 97%;
+        border-top: 1px solid #d1d9df;
+    }
+
+    div.advBlock {
+        float: left;
+        width: 46%;
+        margin: 2%;
+    }
+
+    p.rightHeaderFresh:before {
+        margin-top: -2px;
+    }
+
+    /* post column */
+    div.content {
+        margin-right: 10px;
+    }
+
+    div.postsContainer {
+        width: 100%;
+    }
+
+    /* right button */
+    div.rightButton {
+        display: none;
+    }
+
+    /* top line */
+    form#searchForm input#search {
+        margin-left: 300px;
+    }
+
+    div.centerColumn {
+        width: 96%;
+    }
+
+    div.searchContainer {
+        width: 100%;
+    }
+
+    /* beauty */
+    div.imgContainer {
+        font-size: 1.4em;
+    }
+
+    div.img1,
+    div.img2,
+    div.img3,
+    div.img4 {
+        width: 49.5%;
+    }
+
+    div.img5 {
+        display: none;
+    }
+
+    /* main list */
+    div.shortDescMenu {
+        float: right;
+        width: 32%;
+        font-style: italic;
+        margin-left: 4%;
+    }
+
+    div.shortDescMenu p {
+        font-weight: bold;
+        font-size: 14px;
+        padding-left: 8px;
+    }
+
+    div.shortDescText {
+        float: left;
+        width: 64%;
+        font-size: 14px;
+    }
+
+    div#lineShortDescMenu {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    /* main list */
+    div.shortDescMenu {
+        float: none;
+        width: 100%;
+        line-height: 1.3em;
+        margin-top: -10px;
+    }
+
+    div.shortDescMenu p {
+        margin-bottom: 10px;
+        padding-left: 0;
+    }
+
+    div.shortDescMenu ul {
+        font-size: 13px;
+    }
+
+    div.shortDescText {
+        float: none;
+        width: 100%;
+    }
+
+    div#lineShortDescMenu {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    /* post column */
+    div.welcome {
+        background: #fff;
+    }
+
+    /* footer */
+    div.footerContainer {
+        display: none;
+    }
+
+    /* scroll */
+    div#navUp {
+        visibility: hidden;
+    }
+
+    /* footer */
+    footer.footerContainer {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    /* post column */
+    div.content {
+        margin-right: 0;
+    }
+
+    div.generalColumn,
+    div.post,
+    div.welcome,
+    div.beauty,
+    div.buttonMenu {
+        margin-left: 0;
+    }
+
+    /* account page */
+    div.accountMenu span, div.accountMenu span:first-child {
+        float: none;
+        width: 90%;
+        margin: 0 auto;
+        border-left: none;
+        border-bottom: 1px solid #d1d9df;
+        background: none;
+    }
+
+    div.accountMenu span:last-child {
+        border: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    aside.advContainer {
+        display: none;
+    }
+
+    form#account {
+        margin-bottom: 20px;
+    }
+
+    /* top logo */
+    div.logoContainer {
+        display: none;
+    }
+
+    div.post h2 a {
+        font-size: 1.1em;
+    }
+
+    /* beauty */
+    div.imgContainer {
+        font-size: 1.2em;
+    }
+
+    /* comments */
+    div.commentBody header span {
+        float: none;
+    }
+
+    div.commentBody header strong {
+        margin-right: 10px;
+    }
+
+    div.addCommentBox {
+        height: 200px;
+    }
+
+    div.addCommentBox div.commentBody {
+        padding: 0 0 58px 0;
+    }
+
+    div.addCommentBox {
+        padding: 20px 30px 0 20px;
+        height: 150px;
+    }
+
+    div.addCommentBox div.avatar, section.commentBox div.avatar {
+        display: none;
+    }
+
+    section.commentBox div.commentBody {
+        padding: 0 0 13px 0;
+    }
+
+    div.commentBody input#button {
+        margin-top: 10px;
+    }
+
+    /* account */
+    div.accountIcons {
+        display: none;
+    }
+
+    div.avatar.messageBox {
+        float: none;
+        margin: 0 auto;
+        width: 50px;
+    }
+
+    div.withRadio label {
+        float: none;
+    }
+
+    div.withRadio p {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    div.withRadio div {
+        width: 130px;
+        margin: 0 auto;
+    }
+
+    div.withRadio label {
+        float: none;
+        margin-top: 10px;
+    }
+
+    div.withRadio select {
+        float: none;
+        margin: 10px auto 0 auto;
+        width: 150px;
+    }
+
+    div.accountCheckboxSimple {
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    div.form form div#textField.accountAvatar label.largeLabel {
+        display: none;
+    }
+
+    div.inputFile.accountFile label {
+        width: 100%;
+        text-align: center;
+        margin: 0 0 10px 0;
+    }
+
+    div.inputFile.accountFile input {
+        margin: 0 auto;
+        display: block;
+    }
+
+    div.accountAvatar div.avatar.accountModify {
+        margin: 0 auto;
+        width: 50px;
+        float: none;
+    }
+
+    div.textAreaField.account {
+        margin: 0;
+    }
+
+    div.textAreaField.account textarea {
+        width: 95%;
+        margin-bottom: 10px;
+    }
+
+    div.form form div#textField input.largeInput.accountModify {
+        width: 97%;
+    }
+
+    div.form form div#textField label.accountModify {
+        text-align: center;
+        width: 95%;
+        margin: 0 0 10px 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* aside */
+    aside.advContainer {
+        display: none;
+    }
+
+    /* beauty */
+    div.imgContainer {
+        font-size: 2em;
+    }
+
+    div.img1,
+    div.img2,
+    div.img3,
+    div.img4 {
+        width: 100%;
+        margin: 0;
+    }
+
+    /* post logo */
+    header.postTop {
+        height: 80px;
+        border: 1px solid #fff;
+    }
+
+    div.postTopLogo {
+        margin: 10px auto;
+        float: none;
+    }
+
+    div.postTopInfo {
+        float: none;
+        clear: both;
+        margin: 0 auto;
+        width: 200px;
+    }
+
+    /* login form */
+    div.form form div#textField input {
+        width: 95%;
+        margin: 5px 0 10px 0;
+    }
+
+    div.form {
+        margin-left: 3%;
+    }
+
+    div.form form div#textField label {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    div.form form div#textField label.largeLabel {
+        width: 90%;
+    }
+
+    .real_button {
+        width: auto;
+        min-width: 230px;
+    }
+
+    button#button.login, button#button.registrationButton {
+        display: block;
+        width: auto;
+        min-width: 200px;
+    }
+
+    button#button.login {
+        margin: 50px auto 30px auto;
+    }
+
+    button#button.registrationButton {
+        margin: 10px auto 30px auto;
+    }
+
+    div.form form#login {
+        width: auto;
+    }
+
+    div.form form div#rememberMe {
+        width: auto;
+        margin-left: 0;
+    }
+
+    div.resetPasswordLink {
+        margin: 2px 2% 0 0;
+        float: right;
+    }
+
+    .real_button p {
+        font-size: 14px;
+    }
+
+    div.form form div#textField label.largestLabel.captchaLabel {
+        width: auto;
+        float: none;
+    }
+
+    div.form form div.captchaDiv {
+        margin: 0 auto;
+    }
+
+    /* comments */
+    div.commentBody.article input#button, div.commentBody.article input#file {
+        float: none;
+        margin: 10px auto;
+    }
+
+    div.addCommentBox {
+        height: 180px;
+    }
+
+    div.addCommentBox div.commentBody {
+        padding-bottom: 49px;
+    }
+
+    /* account */
+    div.bgWhiteContent h2 {
+        float: none;
+        text-align: center;
+    }
+
+    div.bgWhiteContent h2 {
+        margin-bottom: 10px;
+    }
+
+    div.avatar.accountUser {
+        float: none;
+        width: 50px;
+        margin: 0 auto;
+    }
+
+    div.bgWhiteContent div p span:first-child {
+        float: none;
+        width: 100%;
+        margin: 0 0 5px 0;
+        text-align: center;
+    }
+
+    div.bgWhiteContent div p span:last-child {
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    /* beauty */
+    div.imgContainer {
+        font-size: 1.4em;
+    }
+
+    div.loginLink a {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    div.loginLink {
+        padding-top: 11px;
+    }
+
+    div.afterPostBottom {
+        height: 38px;
+    }
+
+    span.afterPostFeedback {
+        display: block;
+        margin: 10px auto;
+        width: 80px;
+    }
+
+    /* comments */
+    div.commentBody input#file {
+
+    }
+}
+
+@media screen and (max-width: 260px) {
+    /* search, after post */
+    div.centerColumn, div.afterPost, div.line {
+        display: none;
+    }
+}
+
+@media screen and (max-height: 680px) {
+    /* scroll menu */
+    div.verticalMenu {
+        overflow-y: scroll;
+        overflow-x: hidden;
+        height: 80%;
+        margin: 0;
+        padding-top: 10px;
+    }
+
+    div.verticalMenu ul li.showWhenLowHeight {
+        display: block;
+    }
+
+    div.menuBottom {
+        display: none;
+    }
+
+    div.verticalMenu::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    div.verticalMenu::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.7);
+        border-radius: 2px;
+    }
+
+    div.verticalMenu::-webkit-scrollbar-thumb {
+        border-radius: 2px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.7);
+    }
+}
